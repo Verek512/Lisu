@@ -16,33 +16,36 @@ table{border-collapse:collapse;border-spacing:0}
 
 body {
     margin: 0 !important;
+    font-family: 'Roboto', sans-serif;
 }
 
-.container-1 {        
+.header {        
     background-color: #B6DCFF;
     min-height: 70px;
     display: flex;
-    text-align: center;
-}
-.header-wrapper {
-    margin: auto;
-    display: flex;
     align-items: center;
-    height: 100%;
+}
+
+.header_wrapper {    
+    display: flex;    
+    margin: 0 0 0 100px;    
     max-width: 1720px;
     width: 100%;    
     justify-content: space-between;
+    align-items: flex-end;
+
 }
-.container-1a {
-    padding: 21px;
-    margin-left: 100px;
+
+.header_title {    
     font-size: 24px;   
 }
-.container-1b {
-    margin: 27px;
-    margin-right: 100px;
+
+.header_link {    
     font-size: 14px;
+    color: black;
+    text-decoration: none;             
 }
+
 .demotivator {
     background-image: url(/2017Animals___Wolves_and_Foxes_The_sly_look_of_the_red_fox_120324_1.svg);
     background-repeat: no-repeat;
@@ -52,39 +55,43 @@ body {
     display: flex;
     align-items: center;    
 }
-.container-2b {     
-vertical-align: middle;
+
+.demotivator_title {
 text-transform: uppercase;
 color: white;
-text-align: center;
-font-family: 'Roboto', sans-serif;
 font-size: 64px;
+width: 692px;
+height: 150px;
+text-align: center;
 margin-left: auto;
 margin-right: auto;
  
 }
-.container-3 {
+
+.content {
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
+    max-width: 1670px;
+    width: 100%;
+    margin: 40px 0 0 150px;   
 }
-.container-3a {
-height: 168px;
-width: 619px;
-font-family: 'Roboto', sans-serif;
-margin-left: 150px;
 
+.content_text {
+min-height: 168px;
+max-width: 619px;
+width: 100%;
 }
-.container-3b {
-margin-top: 40px;
-margin-right: 100px;
-} 
-.container-a {
+ 
+.card_gallery {
     display: flex;    
-    margin: 150px 52px 50px 0;       
+    margin: 150px 0 150px 50px;
+    max-width: 1670px;
+    width: 100%;
+    justify-content: space-between;      
 }     
 
-.container-4 {
+.card_1 {
     display: flex;
     margin-left: 150px;    
     border-radius: 25px;    
@@ -92,30 +99,24 @@ margin-right: 100px;
     height: 354px;
     width: 809px;   
 }
-.container-4a {    
+.card_1_img {    
     height: 292px;
     width: 173px;
-    margin-top: 31px;
-    margin-left: 50px;
+    margin: 31px 0 0 50px;    
 }
 
-.container-4b {
-    margin-left: 50px;
-    margin-top: 31px;
-    margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    
+.card_1_header {    
+    margin: 31px 0 20px 50px;      
+    font-size: 36px;   
 }
-.container-4c { 
+.card_1_text { 
     height: 228px;
     width: 481px;
-    margin-left: 50px;       
-    font-family: 'Roboto', sans-serif;
+    margin: 20px 0 33px 50px;         
     font-size: 18px;
-    padding-bottom: 33px;
+    line-height: 21.09px;   
 }
-.container-5 { 
+.card_2 { 
     display: flex;
     border-radius: 25px;    
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -123,34 +124,55 @@ margin-right: 100px;
     width: 809px;
     margin-left: 52px;
 }
-.container-5a {    
+.card_2_img {    
     width: 329px;
-    height: 292px;
-    margin-left: 21px;
-    margin-top: 31px;
+    height: 292px;   
+    margin: 31px 0 0 21px;
 }
-.container-5b {
+.card_2_header {
     margin-left: 222px;   
-    margin-top: 31px;
-    font-family: 'Roboto', sans-serif;
+    margin-top: 31px;    
     font-size: 36px;
 }
-.container-5c { 
+.card_2_text { 
     height: 124px;
-    width: 405px;
-    margin-left: 20px;       
-    font-family: 'Roboto', sans-serif;
+    width: 405px;              
     font-size: 18px;
-    margin-top: 20px;
+    margin: 20px 34px 0 20px;
     text-align: left;
 }
-.container-6a {    
-    margin-right: 840px;    
+.footer {        
+    background-color: #B6DCFF;
+    height: 70px;    
+    min-width: 100%;
+    display: flex;
+    align-items: center;   
 }
-.container-6b {
-    margin-left: 70px;
-    padding: 27px;
+
+.footer_wrapper {
+    max-width: 960px;
+    width: 100%;
+    display: flex;        
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 0 0 70px;     
 }
+
+.footer_link {
+    color: black;
+    text-decoration: none;
+    height: fit-content;    
+}
+
+.footer_title {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+ 
+
+
+
 
 
 
