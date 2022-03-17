@@ -47,7 +47,7 @@ body {
 }
 
 .demotivator {
-    background-image: url(/2017Animals___Wolves_and_Foxes_The_sly_look_of_the_red_fox_120324_1.svg);
+    background-image: url(/img/2017Animals___Wolves_and_Foxes_The_sly_look_of_the_red_fox_120324_1.svg);
     background-repeat: no-repeat;
     min-height: 600px;    
     width: 100%;
@@ -57,14 +57,14 @@ body {
 }
 
 .demotivator_title {
-text-transform: uppercase;
-color: white;
-font-size: 64px;
-width: 692px;
-height: 150px;
-text-align: center;
-margin-left: auto;
-margin-right: auto; 
+    text-transform: uppercase;
+    color: white;
+    font-size: 64px;
+    width: 692px;
+    height: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .content {
@@ -77,9 +77,9 @@ margin-right: auto;
 }
 
 .content_text {
-min-height: 168px;
-max-width: 619px;
-width: 100%;
+    min-height: 168px;
+    max-width: 619px;
+    width: 100%;
 }
  
 .card_gallery {
@@ -109,8 +109,7 @@ width: 100%;
     margin: 31px 0 20px 50px;      
     font-size: 36px;   
 }
-.c
-ard_1_text { 
+.card_1_text { 
     height: 228px;
     width: 481px;
     margin: 20px 0 33px 50px;         
@@ -172,13 +171,4 @@ ard_1_text {
 .footer_title {
     font-size: 18px;
     line-height: 21px;
-}
-
- 
-
-
-
-
-
-
-   
+}  
